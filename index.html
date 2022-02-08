@@ -140,6 +140,40 @@
           </div>
         </div>
       </div>
+
+      <section id="my gaming">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>My Keyboards</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="gaming-box">
+                <h4 class="keyboard-name">Keychron K3</h4>
+                <img src="img/gaming/1.png" alt="keychron K3" class="keyboard-img" />
+                <a href="https://www.ubergizmo.com/reviews/keychron-k3-review/" class="btn btn-light keyboard-detail-button">Show Details</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="gaming-box">
+                <h4 class="keyboard-name">ROG</h4>
+                <img src="img/gaming/2.png" alt="ROG Gaming" class="keyboard-img" />
+                <a href="https://www.pinterest.com/pin/691302611526271264/" class="btn btn-light keyboard-detail-button">Show Details</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="gaming-box">
+                <h4 class="keyboard-name">REXUS</h4>
+                <img src="img/gaming/3.png" alt="REXUS" class="keyboard-img" />
+                <a href="https://rexus.id/mengenali-ukuran-ukuran-keyboard-mechanical/" class="btn btn-light keyboard-detail-button">Show Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -160,52 +194,52 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-3">
-            <a href="#">
+            <a href="https://unsplash.com/photos/6EmaCZZek6U">
               <img src="img/gallery/thumbnail/1.jpg" alt="Ganbar 1" class="img-fluid gallery-img" />
             </a>
           </div>
           <div class="col-md-3">
-            <a href="#">
+            <a href="https://unsplash.com/photos/eeqbbemH9-c">
               <img src="img/gallery/thumbnail/2.jpg" alt="Ganbar 2" class="img-fluid gallery-img" />
             </a>
           </div>
           <div class="col-md-3">
-            <a href="#">
+            <a href="https://unsplash.com/photos/Ax8IA8GAjVg">
               <img src="img/gallery/thumbnail/3.jpg" alt="Ganbar 3" class="img-fluid gallery-img" />
             </a>
           </div>
           <div class="col-md-3">
-            <a href="#">
+            <a href="https://unsplash.com/photos/HYjJ1_AZnqw">
               <img src="img/gallery/thumbnail/4.jpg" alt="Ganbar 4" class="img-fluid gallery-img" />
             </a>
           </div>
           <div class="col-md-3">
-            <a href="#">
+            <a href="https://unsplash.com/photos/R1hgv5WhHfk">
               <img src="img/gallery/thumbnail/5.jpg" alt="Ganbar 5" class="img-fluid gallery-img" />
             </a>
           </div>
           <div class="col-md-3">
-            <a href="#">
+            <a href="https://www.istockphoto.com/search/search-by-asset?assetid=847100448&assettype=image">
               <img src="img/gallery/thumbnail/6.jpg" alt="Ganbar 6" class="img-fluid gallery-img" />
             </a>
           </div>
           <div class="col-md-3">
-            <a href="#">
+            <a href="https://unsplash.com/photos/zcUgjyqEwe8">
               <img src="img/gallery/thumbnail/7.jpg" alt="Ganbar 7" class="img-fluid gallery-img" />
             </a>
           </div>
           <div class="col-md-3">
-            <a href="#">
+            <a href="https://unsplash.com/photos/lKmCnHHbxv8">
               <img src="img/gallery/thumbnail/8.jpg" alt="Ganbar 8" class="img-fluid gallery-img" />
             </a>
           </div>
           <div class="col-md-3">
-            <a href="#">
+            <a href="https://unsplash.com/s/photos/cat-orange">
               <img src="img/gallery/thumbnail/9.jpg" alt="Ganbar 1" class="img-fluid gallery-img" />
             </a>
           </div>
           <div class="col-md-3">
-            <a href="#">
+            <a href="https://unsplash.com/photos/_2ECGFr12LM">
               <img src="img/gallery/thumbnail/10.jpg" alt="Ganbar 10" class="img-fluid gallery-img" />
             </a>
           </div>
@@ -317,6 +351,15 @@
             console.log("Success!", response);
           })
           .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".gaming-box"), {
+        max: 25,
+        speed: 400,
+        glare: true,
       });
     </script>
   </body>
